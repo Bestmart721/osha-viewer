@@ -1,5 +1,5 @@
 // --- frontend/src/App.tsx ---
-import { MDBAccordion, MDBAccordionItem, MDBBtn, MDBContainer, MDBModal, MDBModalBody, MDBModalContent, MDBModalDialog, MDBModalFooter, MDBModalHeader, MDBModalTitle, MDBNavbar, MDBNavbarBrand, MDBSpinner } from 'mdb-react-ui-kit';
+import { MDBAccordion, MDBAccordionItem, MDBBtn, MDBContainer, MDBModal, MDBModalBody, MDBModalContent, MDBModalDialog, MDBModalFooter, MDBModalHeader, MDBModalTitle, MDBNavbar, MDBNavbarBrand, MDBSpinner, MDBTypography } from 'mdb-react-ui-kit';
 import { useEffect, useState } from 'react';
 
 interface DateItem {
@@ -68,6 +68,12 @@ function App() {
             />
             <h3 className='mb-0 ms-2 text-white'>Standard Interpretations</h3>
           </MDBNavbarBrand>
+          <MDBTypography tag='h6' className='text-white'>
+            Full Stack Content Developer Exercise © Created by
+            <a href='mailto:matt.fsliger@gmail.com' className='text-white ms-1 hover-underline'>
+              <b>Matthew Sliger</b>
+            </a>
+          </MDBTypography>
         </MDBContainer>
       </MDBNavbar>
 
