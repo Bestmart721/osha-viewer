@@ -1,6 +1,6 @@
 // --- frontend/src/App.tsx ---
 import { MDBAccordion, MDBAccordionItem, MDBBtn, MDBContainer, MDBModal, MDBModalBody, MDBModalContent, MDBModalDialog, MDBModalFooter, MDBModalHeader, MDBModalTitle, MDBNavbar, MDBNavbarBrand, MDBSpinner } from 'mdb-react-ui-kit';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface DateItem {
   date: string;
